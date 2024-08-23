@@ -23,13 +23,16 @@
                         <a class="nav-link active" aria-current="page" href="#">Ana Sayfa</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Özellikler</a>
+                        <a class="nav-link" href="#hakkimizda">Hakkımızda</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Fiyatlar</a>
+                        <a class="nav-link" href="#hizmetler">Hizmetler</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link disabled">İletişim</a>
+                        <a class="nav-link" href="#sss">SSS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#iletisim">İletişim</a>
                     </li>
                 </ul>
             </div>
@@ -42,42 +45,116 @@
         <p class="lead">EnjoyBus ile unutulmaz bir Avrupa seyahati planlayın.</p>
     </div>
 
-    <!-- Features Section -->
-    <div class="container my-5">
+    <!-- About Us Section -->
+    <div id="hakkimizda" class="container my-5">
+        <h2 class="text-center">Hakkımızda</h2>
+        <p class="text-center">EnjoyBus, Avrupa'ya güvenli ve konforlu yolculuklar düzenleyen lider bir seyahat şirketidir. Deneyimli kadromuz ve modern otobüs filomuz ile seyahatinizi unutulmaz kılmayı hedefliyoruz.</p>
+    </div>
+
+    <!-- Services Section -->
+    <div id="hizmetler" class="container my-5">
+        <h2 class="text-center">Hizmetlerimiz</h2>
         <div class="row">
             <div class="col-md-4">
                 <div class="card">
-                    <img src="https://via.placeholder.com/300" class="card-img-top img-fluid" alt="Feature 1">
+                    <img src="https://via.placeholder.com/300" class="card-img-top img-fluid" alt="Service 1">
                     <div class="card-body">
-                        <h5 class="card-title">Konforlu Yolculuk</h5>
-                        <p class="card-text">En iyi otobüslerle rahat bir seyahat deneyimi yaşayın.</p>
+                        <h5 class="card-title">Şehirlerarası Turlar</h5>
+                        <p class="card-text">En popüler Avrupa şehirlerine düzenlenen turlarımızı keşfedin.</p>
                     </div>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="card">
-                    <img src="https://via.placeholder.com/300" class="card-img-top img-fluid" alt="Feature 2">
+                    <img src="https://via.placeholder.com/300" class="card-img-top img-fluid" alt="Service 2">
                     <div class="card-body">
-                        <h5 class="card-title">Uygun Fiyatlar</h5>
-                        <p class="card-text">Avrupa'yı en uygun fiyatlarla keşfedin.</p>
+                        <h5 class="card-title">Özel Tur Paketleri</h5>
+                        <p class="card-text">Size özel hazırlanan tur paketleri ile kişisel bir deneyim yaşayın.</p>
                     </div>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="card">
-                    <img src="https://via.placeholder.com/300" class="card-img-top img-fluid" alt="Feature 3">
+                    <img src="https://via.placeholder.com/300" class="card-img-top img-fluid" alt="Service 3">
                     <div class="card-body">
-                        <h5 class="card-title">Güvenli Seyahat</h5>
-                        <p class="card-text">Seyahatinizi güven içinde tamamlayın.</p>
+                        <h5 class="card-title">VIP Hizmetler</h5>
+                        <p class="card-text">Lüks ve rahat bir yolculuk için VIP hizmetlerimizi inceleyin.</p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 
+    <!-- FAQ Section -->
+    <div id="sss" class="container my-5">
+        <h2 class="text-center">Sıkça Sorulan Sorular</h2>
+        <div class="accordion" id="faqAccordion">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        Bilet iadesi nasıl yapılır?
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">
+                        Bilet iadesi için lütfen müşteri hizmetleri ile iletişime geçin. İade politikamız ve koşullarımız hakkında detaylı bilgi almak için web sitemizi ziyaret edin.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Otobüslerinizde Wi-Fi mevcut mu?
+                    </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">
+                        Evet, tüm otobüslerimizde ücretsiz Wi-Fi hizmeti bulunmaktadır.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        Yiyecek ve içecek servisi var mı?
+                    </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">
+                        Seyahatlerimizde çeşitli yiyecek ve içecek seçenekleri sunulmaktadır. Menü seçeneklerimiz hakkında daha fazla bilgi için lütfen web sitemizi ziyaret edin.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact Form -->
+    <div id="iletisim" class="container my-5">
+        <h2 class="text-center">İletişim</h2>
+        <form>
+            <div class="mb-3">
+                <label for="name" class="form-label">Adınız</label>
+                <input type="text" class="form-control" id="name" required>
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Email adresiniz</label>
+                <input type="email" class="form-control" id="email" required>
+            </div>
+            <div class="mb-3">
+                <label for="message" class="form-label">Mesajınız</label>
+                <textarea class="form-control" id="message" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Gönder</button>
+        </form>
+    </div>
+
     <!-- Footer -->
     <footer class="bg-dark text-light text-center py-4">
         <p>&copy; 2024 EnjoyBus. Tüm hakları saklıdır.</p>
+        <ul class="list-inline">
+            <li class="list-inline-item"><a href="#" class="text-light">Gizlilik Politikası</a></li>
+            <li class="list-inline-item"><a href="#" class="text-light">Kullanım Şartları</a></li>
+        </ul>
     </footer>
 
 </body>
