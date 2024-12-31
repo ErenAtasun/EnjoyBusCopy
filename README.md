@@ -10,5 +10,6 @@ This project aims to create a platform similar to [enjoybus.com](https://www.enj
 - **User Account Management:** Includes features like registration, login, and viewing booking history.  
 - **Responsive Design:** Delivers a seamless experience across all devices.
 
+![Kapak](https://github.com/ErenAtasun/EnjoyBusCopy/blob/main/Ekran%20görüntüsü%202024-12-31%20151720.png)
 
 
